@@ -136,7 +136,7 @@ table {
   background-color: #f5f5f5;
 }
 
-main {
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -226,7 +226,11 @@ p {
 }
 
 span {
-  display: none;
+  margin-left: 1rem;
+  cursor: pointer;
+  position: absolute;
+  right: 10%;
+  color: #a37b7b;
 }
 li:hover span {
   display: inline-block;
